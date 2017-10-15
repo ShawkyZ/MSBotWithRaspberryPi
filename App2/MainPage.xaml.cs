@@ -39,7 +39,7 @@ namespace App2
 
         private async Task StartConversation()
         {
-            const string secret = "PYI2PavkIbs.cwA.bYo.mHxTGJCXPbKECNeyIN30aFIfLh-V1MEPWUMDKkSmuJg";
+            const string secret = "";
             _directLineApi = new DirectLineAPIClient(secret);
             _startConversationResponse = await _directLineApi.StartConversationAsync();
         }
